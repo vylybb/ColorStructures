@@ -1,0 +1,7 @@
+1,1,B, OK, Expected:Success (only two Blue Structure in the grid)
+11,2,B, OK, Expected:Success (only two Blue Structure in the grid) 
+11,1,B, OK, Expected:Success (only two Blue Structure in the grid) 
+10,1,B, OK, Expected:Success (only two Blue Structure in the grid) 
+10,2,B, OK, Expected:Success (only two Blue Structure in the grid) 
+9,1,B, OK, Expected:Success (only two Blue Structure in the grid) 
+9,2,B, OK, Expected:Success (only two Blue Structure in the grid) 

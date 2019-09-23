@@ -1,0 +1,22 @@
+#Test Rule02
+#Red structure has no more than one another adjacent structure.
+
+10,10,R, Expected:Success (Red Structure has no adjacent Structure)
+11,10,R, Expected:Success (Red Structure has no adjacent Structure)
+12,10,R, Expected:Success (Red Structure has no adjacent Structure)
+10,11,R, Expected:Success (Red Structure has no adjacent Structure)
+
+30,30,R, Expected:Succes (Red Structure has one adjacent Structure)
+31,30,R, Expected:Succes (Red Structure has one adjacent Structure)
+30,31,R, Expected:Succes (Red Structure has one adjacent Structure)
+31,31,R, Expected:Succes (Red Structure has one adjacent Structure)
+32,30,B, TestData
+33,30,B, TestData
+34,30,B, TestData
+35,30,B, TestData
+
+50,50,R, Expected:Fail (Red Structure has two adjacent Structures)
+50,51,R, Expected:Fail (Red Structure has two adjacent Structures)
+51,50,R, Expected:Fail (Red Structure has two adjacent Structures)
+49,50,B, TestData
+52,50,Y, TestData

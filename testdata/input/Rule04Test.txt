@@ -1,0 +1,29 @@
+#Test Rule 04
+#Red structure cannot consist from more than 5 cells.
+
+1,1,R,Expected:Success Structure consists of 1 cell
+
+5,5,R,Expected:Success Structure consists of 2 cell
+5,6,R,Expected:Success Structure consists of 2 cells
+
+10,11,R,Expected:Success Structure consists of 3 cells
+10,12,R,Expected:Success Structure consists of 3 cells
+11,11,R,Expected:Success Structure consists of 3 cells
+
+15,15,R,Expected:Success Structure consists of 4 cells
+16,15,R,Expected:Success Structure consists of 4 cells
+15,16,R,Expected:Success Structure consists of 4 cells
+16,16,R,Expected:Success Structure consists of 4 cells
+
+20,20,R,Expected:Success Structure consists of 5 cells
+21,20,R,Expected:Success Structure consists of 5 cells
+20,21,R,Expected:Success Structure consists of 5 cells
+21,21,R,Expected:Success Structure consists of 5 cells
+21,22,R,Expected:Success Structure consists of 5 cells
+
+30,30,R,Expected:Fail Structure consists of 6 cells
+31,30,R,Expected:Fail Structure consists of 6 cells
+32,30,R,Expected:Fail Structure consists of 6 cells
+30,31,R,Expected:Fail Structure consists of 6 cells
+31,31,R,Expected:Fail Structure consists of 6 cells
+32,31,R,Expected:Fail Structure consists of 6 cells

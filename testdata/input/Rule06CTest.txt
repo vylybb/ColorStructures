@@ -1,0 +1,14 @@
+#Test Rule 06
+#There are no more than two blue structures in the grid
+
+1,1,B,Expected:Fail (more than two blue structures in the grid)
+
+11,2,B,Expected:Fail (more than two blue structures in the grid) 
+11,1,B,Expected:Fail (more than two blue structures in the grid) 
+10,1,B,Expected:Fail (more than two blue structures in the grid) 
+10,2,B,Expected:Fail (more than two blue structures in the grid) 
+9,1,B,Expected:Fail (more than two blue structures in the grid) 
+9,2,B,Expected:Fail (more than two blue structures in the grid)
+ 
+100,1000,B, Expected:Fail (more than two blue structures in the grid)
+101,1000,B, Expected:Fail (more than two blue structures in the grid)

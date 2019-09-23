@@ -1,0 +1,1 @@
+1,1,B, OK, Expected:Success (only one Blue Structure in the grid) 

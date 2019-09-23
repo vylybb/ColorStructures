@@ -1,0 +1,12 @@
+7,22,G, No adjacent blue structure,  Green structure #1
+11,22,R, OK,  Red structure #2 (cell 1/2)
+12,22,R, OK,  Red structure #2 (cell 2/2)
+7,24,Y, Not linear,  Yellow structure #3 (cell 1/3)
+7,25,Y, Not linear,  Yellow structure #3 (cell 2/3)
+8,25,Y, Not linear,  Yellow structure #3 (cell 3/3)
+9,24,B, OK,  Blue structure #4 (cell 1/2)
+9,25,B, OK,  Blue structure #4 (cell 2/2)
+10,23,B, OK,  Blue structure #5 (cell 1/4)
+11,23,B, OK,  Blue structure #5 (cell 2/4)
+11,24,B, OK,  Blue structure #5 (cell 3/4)
+11,25,B, OK,  Blue structure #5 (cell 4/4)

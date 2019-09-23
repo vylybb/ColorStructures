@@ -1,0 +1,8 @@
+#Test Rule 01
+#Green structure always has an adjacent blue structure.
+
+20,20,G, Expected:Success (Adjacent Blue Structure on x-Axis)
+20,21,B, Testdata
+
+30,30,G, Expected:Success (Adjacent Blue Structure on y-Axis)
+29,30,B, Testdata

@@ -1,0 +1,4 @@
+#Test Rule 06
+#There are no more than two blue structures in the grid
+
+1,1,B,Expected:Success (only one Blue Structure in the grid) 

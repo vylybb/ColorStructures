@@ -1,0 +1,18 @@
+1,1,Y, OK, Expected: Success (Adjacent structure is red)
+1,2,Y, OK, Expected: Success (Adjacent structure is red)
+1,3,Y, OK, Expected: Success (Adjacent structure is red)
+1,4,Y, OK, Expected: Success (Adjacent structure is red)
+2,1,R, OK, Testdata
+2,2,R, OK, Testdata
+2,3,R, OK, Testdata
+2,4,R, OK, Testdata
+10,10,Y, OK, Expected: Success (Adjacent structure is blue)
+10,11,Y, OK, Expected: Success (Adjacent structure is blue)
+10,12,B, OK, Testdata
+10,13,B, OK, Testdata
+10,14,B, OK, Testdata
+30,30,Y, Adjacent green structure found to a yellow structure, Expected: Fail (Adjacent structure is Yellow)
+30,29,Y, Adjacent green structure found to a yellow structure, Expected: Fail (Adjacent structure is Yellow)
+30,28,Y, Adjacent green structure found to a yellow structure, Expected: Fail (Adjacent structure is Yellow)
+30,27,Y, Adjacent green structure found to a yellow structure, Expected: Fail (Adjacent structure is Yellow)
+30,31,G, No adjacent blue structure, Testdata

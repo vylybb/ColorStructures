@@ -1,0 +1,3 @@
+3,3,G, No adjacent blue structure,  Expected:Fail (No Adjacent Blue Structure)
+10,10,G, No adjacent blue structure,  Expected:Fail (No Adjacent Blue Structure but a diagonal one)
+11,11,B, OK,  Testdata

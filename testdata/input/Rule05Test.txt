@@ -1,0 +1,23 @@
+#Test Rule05
+#Yellow structure is always linear, i.e. all cells that form the structure are on a single horizontal or vertical line.
+
+1,1,Y,Expected:Success (A single Cell is linear to!)
+
+4,4,Y, Expected:Success (A horizontal Cell is linear)
+5,4,Y, Expected:Success (A horizontal Cell is linear)
+
+10,10,Y, Expected:Success (A vertical Cell is linear)
+10,11,Y, Expected:Success (A vertical Cell is linear)
+10,12,Y, Expected:Success (A vertical Cell is linear)
+10,13,Y, Expected:Success (A vertical Cell is linear)
+10,14,Y, Expected:Success (A vertical Cell is linear)
+10,15,Y, Expected:Success (A vertical Cell is linear)
+10,16,Y, Expected:Success (A vertical Cell is linear)
+10,17,Y, Expected:Success (A vertical Cell is linear)
+10,18,Y, Expected:Success (A vertical Cell is linear)
+10,19,Y, Expected:Success (A vertical Cell is linear)
+
+30,30,Y, Expected:Fail (A L-Shaped Structure is not linear)
+30,31,Y, Expected:Fail (A L-Shaped Structure is not linear)
+30,32,Y, Expected:Fail (A L-Shaped CStructureell is not linear)
+31,30,Y, Expected:Fail (A L-Shaped Structure is not linear)

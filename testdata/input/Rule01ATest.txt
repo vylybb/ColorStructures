@@ -1,0 +1,6 @@
+#Test Rule 1.	
+#Green structure always has an adjacent blue structure.
+
+3,3,G, Expected:Fail (No Adjacent Blue Structure)
+10,10,G, Expected:Fail (No Adjacent Blue Structure but a diagonal one)
+11,11,B, Testdata

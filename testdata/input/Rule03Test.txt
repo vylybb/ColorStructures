@@ -1,0 +1,23 @@
+#Rule03
+#Yellow structure cannot have an adjacent green structure.
+
+1,1,Y,Expected: Success (Adjacent structure is red)
+1,2,Y,Expected: Success (Adjacent structure is red)
+1,3,Y,Expected: Success (Adjacent structure is red)
+1,4,Y,Expected: Success (Adjacent structure is red)
+2,1,R,Testdata
+2,2,R,Testdata
+2,3,R,Testdata
+2,4,R,Testdata
+
+10,10,Y,Expected: Success (Adjacent structure is blue)
+10,11,Y,Expected: Success (Adjacent structure is blue)
+10,12,B,Testdata
+10,13,B,Testdata
+10,14,B,Testdata
+
+30,30,Y,Expected: Fail (Adjacent structure is Yellow)
+30,29,Y,Expected: Fail (Adjacent structure is Yellow)
+30,28,Y,Expected: Fail (Adjacent structure is Yellow)
+30,27,Y,Expected: Fail (Adjacent structure is Yellow)
+30,31,G,Testdata

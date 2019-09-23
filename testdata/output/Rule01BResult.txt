@@ -1,0 +1,4 @@
+20,20,G, OK,  Expected:Success (Adjacent Blue Structure on x-Axis)
+20,21,B, OK,  Testdata
+30,30,G, OK,  Expected:Success (Adjacent Blue Structure on y-Axis)
+29,30,B, OK,  Testdata
